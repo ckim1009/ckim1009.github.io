@@ -1,8 +1,8 @@
 ---
-title: Refactoring Week 1
+title: Refactoring Week 2
 description: Refactoring
 author: Cheongu Kim
-date: 2026-07-13 18:00:00 +0900
+date: 2026-07-18 18:00:00 +0900
 categories: [Refactoring]
 tags: [Refactoring]
 pin: true
