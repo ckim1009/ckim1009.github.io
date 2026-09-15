@@ -16,12 +16,12 @@ mermaid: true
 ## Basic Analysis
 
 ### VirusTotal Analysis
-![VirusTotal Result](/assets/img/Week_10/virustotal_result.png)
+![VirusTotal Result](./assets/img/Week_10/virustotal_result.png)
 
 More than 50 vendors flagged the sample as suspicious for Trojan or Adware behavior.
 
-![VirusTotal Network Communication](/assets/img/Week_10/virustotal_network_communication.png)
-![VirusTotal Activity Summary](/assets/img/Week_10/virustotal_activitysummary.png)
+![VirusTotal Network Communication](./assets/img/Week_10/virustotal_network_communication.png)
+![VirusTotal Activity Summary](./assets/img/Week_10/virustotal_activitysummary.png)
 
 The sample appeared to communicate with `a-ton.co.kr` and attempt to install `DelUS.bat` and `nskSetup.exe`.
 
@@ -31,12 +31,12 @@ The sample appeared to communicate with `a-ton.co.kr` and attempt to install `De
 
 ### Exeinfo PE
 
-![Exeinfo PE Result](/assets/img/Week_10/exeinfope_result.png)
+![Exeinfo PE Result](./assets/img/Week_10/exeinfope_result.png)
 
 The sample was confirmed to be unpacked.
 
 ### BinText
-![BinText Result](/assets/img/Week_10/bintext_result.png)
+![BinText Result](./assets/img/Week_10/bintext_result.png)
 
 `a-ton.co.kr` appeared repeatedly in the extracted strings.
 
