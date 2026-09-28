@@ -12,13 +12,12 @@ mermaid: true
 ---
 
 # Malware Analysis: `bton02setup.exe`
-
 ## Basic Analysis
 
 ### VirusTotal Analysis
 ![VirusTotal Result](/assets/img/Week_10/virustotal_result.png)
 
-More than 50 vendors flagged the sample as suspicious for Trojan or Adware behavior.
+More than 65 vendors flagged the sample as suspicious for Trojan or Adware behavior.
 
 ![VirusTotal Network Communication](/assets/img/Week_10/virustotal_network_communication.png)
 ![VirusTotal Activity Summary](/assets/img/Week_10/virustotal_activitysummary.png)
@@ -33,7 +32,7 @@ The sample appeared to communicate with `a-ton.co.kr` and attempt to install `De
 
 ![Exeinfo PE Result](/assets/img/Week_10/exeinfope_result.png)
 
-The sample was confirmed to be unpacked.
+The sample was packed.
 
 ### BinText
 ![BinText Result](/assets/img/Week_10/bintext_result.png)
@@ -80,8 +79,8 @@ The executable file was deleted immediately after execution.
 
 `bton02setup.exe`
 
-- Started at 10:09:27
-- Terminated at 10:11:17
+- Started at 22:09:27
+- Terminated at 22:11:17
 - No additional activity was observed after termination.
 
 No activity related to `DelUS.bat` or `nskSetup.exe` was detected.
